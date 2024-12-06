@@ -86,9 +86,6 @@ while cap.isOpened():
                 cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 cv2.putText(frame, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
 
-                # Draw face detection landmarks
-                mp_drawing.draw_detection(frame, detection)
-
     # Show the frame regardless of detection results
     cv2.imshow('Prepoznavanje spola i dobi', frame)
 
