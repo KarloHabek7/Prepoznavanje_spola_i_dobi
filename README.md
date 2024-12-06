@@ -1,0 +1,1 @@
+Da bi ste testirali rješenje zadatka, pokrenite age_gender.py
